@@ -1,0 +1,54 @@
+.gallery {
+	height: 100vh;
+    width: 100vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.image {
+	display: flex;
+	height: 60vh;
+    margin: 10vh auto 10vh 15%;
+}
+
+.caption {
+	display: flex;
+	width: 50vw;
+	margin: auto;
+	color: black;
+	justify-content: center;
+}
+
+.arrow {
+	color: black;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+	position: absolute;
+    padding: 0;
+}
+
+.left {
+	left: 5%;
+	z-index: 1;
+}
+
+.right {
+	right: 5%;
+	z-index: 1;
+}
+
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.image {
+		margin: 10vh auto 10vh auto;
+	}
+}

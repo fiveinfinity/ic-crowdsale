@@ -1,0 +1,57 @@
+{
+  "name": "ic-crowdsale",
+  "version": "1.0.0",
+  "description": "To cash in on them bitcoins! Ye-haa!",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --history-api-fallback",
+	"build": "webpack",
+    "package": "npm run build && npm run docker-build",
+	"publish": "npm run package && npm run docker-push",
+	"docker-tag": "docker tag ic-crowdsale fiveinfinity/ic-crowdsale:latest",
+    "docker-build": "docker build -t ic-crowdsale ./",
+	"docker-push": "docker push fiveinfinity/ic-crowdsale",
+	"docker-start": "docker run -it -p 8080:8080 ic-crowdsale"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ic.gogs.otterhive.com/joe/ic-crowdsale.git"
+  },
+  "dependencies": {
+    "prop-types": "15.5.10",
+    "react": "15.4.2",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "15.4.2",
+    "react-scroll": "^1.5.4",
+    "react-slick": "^0.15.4"
+  },
+  "devDependencies": {
+    "babel-core": "6.23.1",
+    "babel-loader": "6.3.2",
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "babel-plugin-react-css-modules": "^3.3.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-postcss": "^0.3.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-require-ignore": "^0.1.1",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "6.22.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-react": "6.23.0",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "0.11.2",
+    "html-webpack-plugin": "2.30.1",
+    "postcss": "^6.0.11",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "postcss-modules": "^0.8.0",
+    "react-hot-loader": "3.0.0-beta.6",
+    "style-loader": "0.18.2",
+    "url-loader": "0.5.9",
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.4.1"
+  }
+}

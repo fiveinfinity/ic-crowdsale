@@ -1,0 +1,22 @@
+.home {
+	background: url('../../assets/images/home-background.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+	font-family: 'Gotham-ExtraLight';
+	color: white;
+	font-size: 2.0em;
+	margin-left: 15%;
+}
+
+.copy {
+	margin: 10px 0 0 15%;
+	font-family: 'Gotham-ExtraLight';
+	color: white;
+}

@@ -1,0 +1,36 @@
+.about {
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	height: calc(100vh - 60px);
+}
+
+.background {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	background-color: #107dac;
+	height: 50vh;
+	-webkit-clip-path: polygon(0% 0, 100% 6%, 100% 94%, 0 100%);
+	clip-path: polygon(0% 0, 100% 6%, 100% 94%, 0 100%);
+}
+.bio-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bio {
+	font-family: 'Gotham-ExtraLight';
+}
+
+@media (max-width: 600px) {
+	.bio-wrapper {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.bio {
+		padding: 15px;
+	}
+}

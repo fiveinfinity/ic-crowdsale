@@ -1,0 +1,28 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	background-color: #252d36;
+	opacity: .95;
+	height: 50px;
+	min-width: 100%;
+	z-index: 1;
+}
+
+.content {
+	display: -webkit-inline-box;
+    flex-direction: column;
+	justify-content: center;
+	font-family: 'Gotham-ExtraLight';
+	font-size: 10px;
+}
+
+.social {
+	font-size: 25px;
+
+	& i {
+		margin: 5px;
+	}
+}

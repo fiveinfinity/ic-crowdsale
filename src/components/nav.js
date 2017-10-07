@@ -60,13 +60,13 @@ const SideNav = ({ showSideNav }) => {
 			<div className={styles['sidenav-vertical']}></div>
 			<div className={styles['sidenav-header']}>
 				<Link to="home" smooth={true} offset={-60} duration={500}>
-					<img className={`${styles['logo-sidenav']} ${styles[fade]}`} src="assets/images/ic-logo.png" />
+					<img className={`${styles['logo-sidenav']} ${styles[fade]}`} src="public/images/ic-logo.png" />
 				</Link>
 			</div>
 
 			<a href="#" className={`${styles['item-sidenav']} ${styles[fade]} ${styles.whitepaper}`}>
 				WHITEPAPER
-				<img className={styles.comingsoon} src="assets/images/coming-soon.png" />	
+				<img className={styles.comingsoon} src="public/images/coming-soon.png" />	
 			</a>
 
 			<Link to="benefits" smooth={true} offset={-60} duration={500}>

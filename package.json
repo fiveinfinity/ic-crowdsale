@@ -11,7 +11,8 @@
 	"docker-tag": "docker tag ic-crowdsale fiveinfinity/ic-crowdsale:latest",
     "docker-build": "docker build -t ic-crowdsale ./",
 	"docker-push": "docker push fiveinfinity/ic-crowdsale",
-	"docker-start": "docker run -it -p 8080:8080 ic-crowdsale"
+	"docker-start": "docker run -it -p 8080:8080 ic-crowdsale",
+	"deploy": "npm run package && npm run docker-tag && npm run docker-push"
   },
   "repository": {
     "type": "git",

@@ -1,10 +1,10 @@
 import React from 'react';
 import Slider from 'react-slick';
 import styles from '../stylesheets/gallery.css';
-import addFlightImg from '../../assets/images/add-flight.png';
-import confirmFlightImg from '../../assets/images/confirm-flight.png';
-import text from '../../assets/images/text.png';
-import pay from '../../assets/images/pay.png';
+import addFlightImg from '../../public/images/add-flight.png';
+import confirmFlightImg from '../../public/images/confirm-flight.png';
+import text from '../../public/images/text.png';
+import pay from '../../public/images/pay.png';
 
 export const Gallery = (props) => {
 	const settings = {

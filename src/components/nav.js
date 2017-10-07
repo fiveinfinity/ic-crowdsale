@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import P from 'prop-types';
 import { Link, animateScroll } from 'react-scroll';
 import styles from '../stylesheets/nav.css';
-import logo from '../../assets/images/ic-logo.png';
+import logo from '../../public/images/ic-logo.png';
 
 export class Nav extends Component {
 	constructor () {
@@ -31,7 +31,7 @@ export class Nav extends Component {
 					<div className={styles.name}>IM CONVENIENCED</div>
 					<div className={`${styles.item} ${styles.whitepaper}`}>
 						WHITEPAPER
-						<img className={styles.comingsoon} src="assets/images/coming-soon.png" />	
+						<img className={styles.comingsoon} src="public/images/coming-soon.png" />	
 					</div>
 					<Link className={styles.item} to="benefits" smooth={true} offset={-60} duration={500}>BENEFITS</Link>
 					<Link className={styles.item} to="gallery" smooth={true} offset={-60} duration={500}>GALLERY</Link>

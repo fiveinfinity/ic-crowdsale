@@ -1,0 +1,49 @@
+.benefits {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headline {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'GothamSSm-Book';
+	color: #252d36;
+	font-size: 2em;
+}
+
+.block {
+	display: flex;
+	justify-content: center;
+	margin: 5vh;
+    border: 1px solid #c1c2c3;
+    padding: 30px;
+}
+
+.check {
+	color: green;
+	font-size: 2em;
+}
+
+.textblock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	font-family: 'GothamSSm-Book';
+	color: black;
+	margin: 0 0 5px 15px;
+}
+
+.content {
+	display: flex;
+    align-items: center;
+	font-family: 'Gotham-ExtraLight';
+	color: black;
+	margin-left: 15px;
+}

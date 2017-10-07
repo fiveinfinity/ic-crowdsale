@@ -3,7 +3,7 @@
 	bottom: 0;
 	display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 	background-color: #252d36;
 	opacity: .95;
 	height: 50px;
@@ -17,6 +17,7 @@
 	justify-content: center;
 	font-family: 'Gotham-ExtraLight';
 	font-size: 10px;
+	margin: 0 30px;
 }
 
 .social {

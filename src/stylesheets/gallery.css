@@ -17,7 +17,8 @@
 .caption {
 	display: flex;
 	width: 50vw;
-	margin: auto;
+	margin: auto 10vw auto 5vw;
+	font-family: 'Gotham-ExtraLight';
 	color: black;
 	justify-content: center;
 }
@@ -49,6 +50,10 @@
 	}
 
 	.image {
-		margin: 10vh auto 10vh auto;
+		margin: 5vh auto 5vh auto;
+	}
+
+	.caption {
+		margin: auto;
 	}
 }

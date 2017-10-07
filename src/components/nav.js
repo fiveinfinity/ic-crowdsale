@@ -33,6 +33,7 @@ export class Nav extends Component {
 						WHITEPAPER
 						<img className={styles.comingsoon} src="assets/images/coming-soon.png" />	
 					</div>
+					<Link className={styles.item} to="benefits" smooth={true} offset={-60} duration={500}>BENEFITS</Link>
 					<Link className={styles.item} to="gallery" smooth={true} offset={-60} duration={500}>GALLERY</Link>
 					<Link className={`${styles.item} ${styles.last}`} to="about" smooth={true} offset={-60} duration={500}>ABOUT US</Link>
 					<div className={styles['border-box']}></div>
@@ -67,6 +68,12 @@ const SideNav = ({ showSideNav }) => {
 				WHITEPAPER
 				<img className={styles.comingsoon} src="assets/images/coming-soon.png" />	
 			</a>
+
+			<Link to="benefits" smooth={true} offset={-60} duration={500}>
+				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>
+					BENEFITS
+				</div>
+			</Link>
 			
 			<Link to="gallery" smooth={true} offset={-60} duration={500}>
 				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>

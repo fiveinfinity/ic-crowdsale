@@ -8,15 +8,25 @@
     justify-content: center;
 }
 
+.block {
+	margin: 30px;
+	width: 60vw;
+}
+
 .title {
 	font-family: 'Gotham-ExtraLight';
 	color: white;
 	font-size: 2.0em;
-	margin-left: 15%;
+}
+
+.subtitle {
+	font-family: 'Gotham-ExtraLight';
+	color: white;
+	font-size: 1.5em;
 }
 
 .copy {
-	margin: 10px 0 0 15%;
+	margin: 10px 0 0 0;
 	font-family: 'Gotham-ExtraLight';
 	color: white;
 }

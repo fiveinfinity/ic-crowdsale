@@ -33,9 +33,11 @@ export class Nav extends Component {
 						WHITEPAPER
 						<img className={styles.comingsoon} src="public/images/coming-soon.png" />	
 					</div>
-					<Link className={styles.item} to="benefits" smooth={true} offset={-60} duration={500}>BENEFITS</Link>
-					<Link className={styles.item} to="gallery" smooth={true} offset={-60} duration={500}>GALLERY</Link>
-					<Link className={`${styles.item} ${styles.last}`} to="about" smooth={true} offset={-60} duration={500}>ABOUT US</Link>
+					<Link className={styles.item} to="benefits" smooth={true} duration={500}>BENEFITS</Link>
+					<Link className={styles.item} to="gallery" smooth={true} duration={500}>GALLERY</Link>
+					<Link className={styles.item} to="about" smooth={true} duration={500}>ABOUT US</Link>
+					<Link className={`${styles.item} ${styles.last}`} to="contact" smooth={true} duration={500}>CONTACT</Link>
+
 					<div className={styles['border-box']}></div>
 					<div type="button" className={`${styles.hamburger} ${styles['hamburger--spin']} ${styles[active]}`} onClick={this.toggleNav}>
 						<span className={styles['hamburger-box']}>
@@ -69,21 +71,27 @@ const SideNav = ({ showSideNav }) => {
 				<img className={styles.comingsoon} src="public/images/coming-soon.png" />	
 			</a>
 
-			<Link to="benefits" smooth={true} offset={-60} duration={500}>
+			<Link to="benefits" smooth={true} duration={500}>
 				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>
 					BENEFITS
 				</div>
 			</Link>
-			
-			<Link to="gallery" smooth={true} offset={-60} duration={500}>
+
+			<Link to="gallery" smooth={true} duration={500}>
 				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>
 					GALLERY
 				</div>
 			</Link>
 			
-			<Link to="about" smooth={true} offset={-60} duration={500}>
+			<Link to="about" smooth={true} duration={500}>
 				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>
 					ABOUT
+				</div>
+			</Link>
+
+			<Link to="contact" smooth={true} duration={500}>
+				<div className={`${styles['item-sidenav']} ${styles[fade]}`}>
+					CONTACT
 				</div>
 			</Link>
 		</div>

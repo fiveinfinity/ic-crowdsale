@@ -4,6 +4,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background: linear-gradient(#252d36, white);
 }
 
 .headline {
@@ -11,16 +12,15 @@
 	flex-direction: row;
 	justify-content: center;
 	font-family: 'GothamSSm-Book';
-	color: #252d36;
+	color: white;
 	font-size: 2em;
+	margin: 2vh;
 }
 
 .block {
 	display: flex;
 	justify-content: center;
-	margin: 5vh;
-    border: 1px solid #c1c2c3;
-    padding: 30px;
+    padding: 15px;
 }
 
 .check {

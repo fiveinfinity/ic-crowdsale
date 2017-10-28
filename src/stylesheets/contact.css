@@ -1,0 +1,68 @@
+.contact {
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	min-height: 100vh;
+	color: black;
+}
+
+.wrapper {
+	justify-content: center;
+    align-items: center;
+    display: flex;
+	flex-direction: column;
+	background-color: #3a4756;
+    width: 100vw;
+	height: 250px;
+	font-size: x-large;
+	color: white;
+}
+
+.copy {
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 15px;
+	margin: 5px;
+}
+
+.form {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+	margin: 15px;
+	height: 40px;
+    width: 300px;
+	border: none;
+	font-size: 30px;
+	padding: 10px;
+	color: #3a4756;
+}
+
+.submit {
+	font-size: 15px;
+    border: 1px solid white;
+	width: 40vw;
+	max-width: 200px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+@media (max-width: 700px) {
+	.wrapper {
+		font-size: larger;
+	}
+
+	.input {
+		padding: 5px;
+	}
+
+	.copy {
+		font-size: 12px;
+	}
+}

@@ -1,8 +1,8 @@
 .home {
-	background: url('../../public/images/home-background.png');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../public/images/home-background.png');
 	background-size: cover;
     background-repeat: no-repeat;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,4 +29,12 @@
 	margin: 10px 0 0 0;
 	font-family: 'Gotham-ExtraLight';
 	color: white;
+}
+
+@media (max-width: 600px) {
+	.block {
+		width: 90vw;
+		text-align: center;
+		margin: 20px;
+	}
 }

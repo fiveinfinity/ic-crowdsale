@@ -13,4 +13,5 @@ ssh root@67.205.131.49
 
 docker container ls (get running container id)
 docker container kill <id> (kill container)
+docker pull fiveinfinity/ic-crowdsale:latest
 docker run -it -p 8080:8080 fiveinfinity/ic-crowdsale:latest

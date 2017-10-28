@@ -27,7 +27,9 @@
 }
 
 .description {
-    color: grey;
+	color: grey;
+	max-width: 40vw;
+	font-family: 'Lora', serif;
 }
 
 .top-line {
@@ -66,9 +68,9 @@
 	}
 
 	.description {
-		max-width: 90vw;
-		font-family: 'Lora', serif;
 		font-size: 12px;
+		max-width: 90vw;
+		text-align: center;
 	}
 
 	.top-line {

@@ -66,6 +66,7 @@
 	}
 
 	.description {
+		max-width: 90vw;
 		font-family: 'Lora', serif;
 		font-size: 12px;
 	}

@@ -10,9 +10,9 @@ export const Contact = (props) => {
 				<div className={styles.copy}>
 					* We promise we won't share this with anyone else, ever.
 				</div>
-				<form className={styles.form}>
+				<form className={styles.form} action="mailto:joe@leisureofnyc.com" method="post" enctype="text/plain">
 					<input className={styles.input} type="text" />
-					<div className={styles.submit}>SUBMIT</div>
+					<input className={styles.submit} type="submit" value="SUBMIT"/>
 				</form>
 			</div>
 			<Footer />

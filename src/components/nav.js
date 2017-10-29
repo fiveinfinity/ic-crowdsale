@@ -35,7 +35,7 @@ export class Nav extends Component {
 					</div>
 					<Link className={styles.item} to="benefits" smooth={true} duration={500}>BENEFITS</Link>
 					<Link className={styles.item} to="gallery" smooth={true} duration={500}>GALLERY</Link>
-					<Link className={styles.item} to="about" smooth={true} duration={500}>ABOUT US</Link>
+					<Link className={styles.item} to="about" smooth={true} duration={500}>ABOUT</Link>
 					<Link className={`${styles.item} ${styles.last}`} to="contact" smooth={true} duration={500}>CONTACT</Link>
 
 					<div className={styles['border-box']}></div>
